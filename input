@@ -1,0 +1,18 @@
+tuichaveva !{
+    paite idade, soma;
+    anate altura;
+
+    koseva !(!"Digite sua idade:"!)!;
+    kjaike !(idade)!;
+
+    koseva !(!" Digite sua altura em metros: "!)!;
+    kjaike !(altura)!;
+
+    ramoramo !(idade >= 18)! !{
+        koseva !(!"Você é maior de idade."!)!;
+    }! neiramo !{
+        koseva !(!"Você é menor de idade."!)!;
+    }!
+}!
+paha
+
